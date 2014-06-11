@@ -1,0 +1,22 @@
+This code takes in the file 'parks' and converts it to the numbers 
+on a phone that you would push if you were trying to text that word.
+It compares the numeric equivalent of the word to the set of 
+numbers we already have (in masternums).  To render the print
+statements correctly, you will want to use Python3.  
+
+The set of numbers in masternums came from finding clues in the 
+Prairie Fest Medallion Hunt at local parks.  We only found 3
+of the 5 clues, so we do not have the entire list of numbers
+in masternums.  For this reason, we calculate a partial match.
+
+The sixth clue seems to tell us to take the numbers found in 
+clues 1-5 and determine which park name those numbers spell
+on a phone keypad.  
+
+The clues at http://www.prairiefest.com/clues.htm took us to 
+locations around town where we found a paper with a set of
+numbers (which are in masternums).
+
+You can change the input file ('parks') and the list of numbers
+in masternums, for example, to see what other words in a file 
+can be partially constructed from a list of numbers of your choice.
